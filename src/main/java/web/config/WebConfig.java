@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan("abily")
+@ComponentScan("web")
 public class WebConfig extends WebMvcConfigurerAdapter{
 
     @Bean
